@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Delícias</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Delícias</div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#cardapio">Cardápio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Bem-vindo ao Restaurante Delícias</h1>
+            <p>Descubra o sabor da autenticidade em cada prato</p>
+            <a href="#cardapio" class="cta-button">Ver Cardápio</a>
+        </div>
+    </section>
+
+    <section id="cardapio" class="menu">
+        <h2>Nosso Cardápio</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085" alt="Café">
+                <h3>Café</h3>
+                <p>Café especial da casa</p>
+                <span class="price">R$ 5,00</span>
+            </div>
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff" alt="Pão">
+                <h3>Pão</h3>
+                <p>Pão artesanal fresco</p>
+                <span class="price">R$ 3,00</span>
+            </div>
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1600271886742-f049cd451bba" alt="Suco">
+                <h3>Suco</h3>
+                <p>Sucos naturais</p>
+                <span class="price">R$ 8,00</span>
+            </div>
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1544025162-d76694265947" alt="Carne">
+                <h3>Carne</h3>
+                <p>Carne grelhada especial</p>
+                <span class="price">R$ 45,00</span>
+            </div>
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd" alt="Salada">
+                <h3>Salada</h3>
+                <p>Salada fresca da estação</p>
+                <span class="price">R$ 15,00</span>
+            </div>
+            <div class="menu-item">
+                <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c" alt="Almoço">
+                <h3>Almoço</h3>
+                <p>Prato do dia completo</p>
+                <span class="price">R$ 35,00</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contact">
+        <h2>Entre em Contato</h2>
+        <div class="contact-container">
+            <form id="contact-form">
+                <input type="text" placeholder="Nome" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Rua das Delícias, 123</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <p>(11) 1234-5678</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>contato@delicias.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Restaurante Delícias. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
